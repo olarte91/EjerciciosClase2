@@ -19,10 +19,10 @@ public class Ejercicio2 {
         System.out.println("Ingrese la cantidad de la porción en gramos");
         precioTotal = scanner.nextDouble() * precioKilo;
         System.out.printf("El valor a pagar es: %.2f", precioTotal);
-
-
-
-
-
     }
 }
+
+
+
+
+

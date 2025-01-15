@@ -13,5 +13,9 @@ public class Ejercicio3 {
          * azules en un gigantesco acuario, para devolverlos al mar cuando estén
          * curados. ¿Cuántos peces hay en total dentro del acuario?
          */
+
+         var pecesRojos = 284;
+         var pecesAzules = 163;
+         System.out.printf("El total de peces en el acuario es de: %d", pecesRojos + pecesAzules);
     }
 }
