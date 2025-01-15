@@ -12,5 +12,9 @@ public class Ejercicio5 {
          * descuenta el 10% por pronto pago ¿Cuánto tienes que pagar en total por el
          * ordenador con todos los accesorios?
          */
+
+         var precioOrdenador = 660.0;
+         var descuento = 10.0;
+         System.out.printf("Se debe pagar: $%.2f", precioOrdenador - (precioOrdenador * descuento / 100));
     }
 }
