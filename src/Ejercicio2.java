@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Ejercicio2 {
     public static void main(String[] args) {
         /*
@@ -10,5 +12,17 @@ public class Ejercicio2 {
          * En este reto tienes que hacer un programa que calcule correctamente el precio
          * por kilo del producto.
          */
+        var scanner = new Scanner(System.in);
+        var precioKilo = 29.75;
+        var precioTotal = 0.0;
+
+        System.out.println("Ingrese la cantidad de la porción en gramos");
+        precioTotal = scanner.nextDouble() * precioKilo;
+        System.out.printf("El valor a pagar es: %.2f", precioTotal);
+
+
+
+
+
     }
 }
