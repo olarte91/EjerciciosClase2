@@ -12,5 +12,10 @@ public class Ejercicio4 {
          * amigos y sale de su casa con 23€. Al regresar se da cuenta que le quedan
          * 12.75€ ¿Sabrías programar cuánto se ha gastado?
          */
+
+         var dineroTotal = 23.0;
+         var dineroGastado = 12.75;
+
+         System.out.printf("Carmen se gastó: $%.2f", dineroTotal - dineroGastado);
     }
 }
