@@ -11,5 +11,8 @@ public class Ejercicio1 {
          * ¿Cuál es el resultado correcto de la operación? ¿1 ó 9?
          * Explique por que la otra calculadora genera un resultado diferente.
          */
+
+         var operacion = 6 / 2  * ( 1 + 2 );
+         System.out.println(operacion);
     }
 }
