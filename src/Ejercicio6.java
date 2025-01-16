@@ -11,5 +11,9 @@ public class Ejercicio6 {
          * por unos pantalones que tenían un descuento del 15%. ¿Qué precio tenían antes
          * de aplicar el descuento?
          */
+
+         var valorPantalones = 34.0;
+         var descuento = 0.85;
+         System.out.printf("El precio antes del descuento era: $%.2f", valorPantalones/descuento);
     }
 }
